@@ -1,0 +1,170 @@
+body {
+    margin-top:1.5em;
+}
+
+body > .pro-cat {
+    margin-left:14em;
+} 
+
+.fcabe {
+    width:5em;
+    height:5em;
+}
+
+.grupo-formux {
+    width:13em;
+    padding:0.5em;
+}
+
+label {
+    font-family:Arial;
+    font-size:14px;
+}
+
+.grupo-formux > h2 {
+    text-align:center;
+}
+
+.elformux {
+    border:solid black 1px;
+    padding:0.5em;
+    width:12em;
+    position:absolute;
+    padding-top:1.2em;
+    padding-bottom:1.2em;
+}
+
+input[type="text"], input[type="date"] {
+    width:67%;
+    background-color:rgb(221, 221, 221);
+    border:transparent;
+    height:1.6em;
+    outline:none;
+}
+
+input[type="text"]:hover, input[type="date"]:hover {
+      box-shadow:0px 0px 10px black;
+}
+
+input[type="button"] {
+    background-color:rgb(24, 129, 199);
+    padding:0.5em;
+    border-radius:15px;
+    color:white;
+    outline:none;
+    border:transparent;
+    margin-left:2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type="button"]:hover {
+    box-shadow:0px 0px 10px black;
+}
+
+select {
+    margin-top:12.6em;
+    overflow: hidden;
+    outline:none;
+    height:11.1em;
+    padding:-2em;
+    margin-left:1em;
+}
+
+h2 {
+    font-family:Arial;
+}
+
+caption {
+    font-family:Arial;
+    font-size:24px;
+    font-weight:bold;
+    height:1.8em;
+}
+
+select > option {
+    border:solid black 1px;
+    text-align:center;
+    width:6.5em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:1.8em;
+    padding-top:0.7em;
+}
+
+select > option:active {
+    background-color:rgb(24, 129, 199);
+    color:white;
+}
+
+.gru-tabla {
+    margin-left:6em;
+}
+
+.gru-tabla > h2, #tabla {
+    text-align:center;
+}
+
+#tabla {
+    border-collapse: collapse;
+    width:35em;
+}
+
+#tabla tr > th, td {
+    border:solid black 1px;
+    height:1.8em;
+    font-size:14px;
+}
+
+#tabla tr > td {
+    font-family:Arial;
+}
+
+#tabla tr > th {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family:Arial;
+    font-size:14px;
+}
+
+.losproductos {
+    border:solid black 1px;
+    display:flex;
+    flex-direction:row;
+    padding-top:6em;
+    padding-bottom:5em;
+    width:27.3em;
+    height:8.6em;
+}
+
+.losproductos > div {
+    margin-left:2.3em;
+    margin-top:-2em;
+}
+
+.pro1, .pro2, .pro3 {
+     border:solid black 1px;
+     width:6em;
+     display:none;
+}
+
+.mini {
+    width:5.5em;
+    height:5.5em;
+}
+
+.pro1 > p, .pro2 > p, .pro3 > p {
+    text-align:center;
+    border:solid black 1px;
+}
+
+.pro-cat {
+    display:flex;
+    flex-direction: row;
+    margin-left:10em;
+    margin-top:-11.9em;
+}
+
+.mostrar-productos {
+    display:block;
+}

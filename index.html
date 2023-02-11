@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejercicio 4 DOM</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script type="text/javascript" src="js/program.js"></script>
+    </head>
+       <body>
+           <img src="img/azarquiel.png" class="fcabe"/>
+           <div class="grupo-formux">
+            <h2>TRABAJADOR</h2>
+            <form id="formux" class="elformux">
+               <label>Nombre</label>&nbsp;
+               <input type="text" id="nombres"/>
+               <br/><br/>
+               <label>Fecha</label>&nbsp;
+               <input type="date" id="fecha"/>
+               <br/><br/>
+               <input type="button" id="OtroTrabajador" value="Cambio trabajador">
+               <br/>
+            </form>
+           </div>
+           <br/>
+           <div class="pro-cat">
+            <select id="lista" size=4>
+                 <option id="pescadito" value="Pescado">Pescado</option>
+                 <option id="carnecita" value="Carne">Carne</option>
+                 <option id="verdurita" value="Verdura">Verdura</option>
+                 <option id="frutita" value="Fruta">Fruta</option>
+            </select>
+            <div class="losproductos" id="losproductos">
+                <div class="pro1" id="pro1">
+                   <img id="imagen1" class="mini">
+                   <p id="producto1"></p>
+                   <p id="precio1"></p>
+                </div>
+                <div class="pro2" id="pro2">
+                    <img id="imagen2" class="mini">
+                    <p id="producto2"></p>
+                    <p id="precio2"></p>
+                 </div>
+                 <div class="pro3" id="pro3">
+                    <img id="imagen3" class="mini">
+                    <p id="producto3"></p>
+                    <p id="precio3"></p>
+                 </div>
+            </div>
+           </div>
+           <br/><br/>
+           <div class="gru-tabla">
+               <table id="tabla">
+                   <caption>FACTURACIÓN</caption>
+                   <thead>
+                      <tr>
+                        <th>Categoría</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Trabajador</th>
+                        <th>Fecha</th>  
+                      </tr>
+                   </thead>
+                   <tbody>
+                 
+                   </tbody>
+               </table>
+           </div>
+       </body>
+</html>
