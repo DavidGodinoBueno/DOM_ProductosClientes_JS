@@ -6,11 +6,6 @@ body > .pro-cat {
     margin-left:14em;
 } 
 
-.fcabe {
-    width:5em;
-    height:5em;
-}
-
 .grupo-formux {
     width:13em;
     padding:0.5em;
@@ -162,7 +157,7 @@ p {
     display:flex;
     flex-direction: row;
     margin-left:10em;
-    margin-top:-11.9em;
+    margin-top:-5.9em;
 }
 
 .mostrar-productos {
